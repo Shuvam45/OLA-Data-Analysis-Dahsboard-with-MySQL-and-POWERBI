@@ -1,0 +1,23 @@
+# Ignore Power BI autosave files and backups
+*.pbix~*
+*.tmp
+
+# Ignore Power BI cache and temporary files (if any are generated)
+*.bak
+*.pbip
+
+# Ignore system/IDE files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore OS or code editor-specific files
+.vscode/
+.idea/
+*.log
+
+# Ignore database dumps or credentials (if used)
+*.sql~*
+.env
+*.db
+*.sqlite
